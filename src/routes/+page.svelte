@@ -1,2 +1,19 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	import NavHost from '../components/molecules/NavHost.svelte';
+	import Hero from '../components/organisms/Hero.svelte';
+	import About from '../components/organisms/About.svelte';
+	// import Art from '../components/organisms/Art.svelte';
+	import Repos from '../components/organisms/Repos.svelte';
+	// import Supporters from '../components/organisms/Supporters.svelte';
+	import Footer from '../components/molecules/Footer.svelte';
+</script>
+
+<NavHost />
+<main>
+	<Hero />
+	<About />
+	<!-- <Art /> -->
+	<Repos />
+	<!-- <Supporters /> -->
+	<Footer />
+</main>
